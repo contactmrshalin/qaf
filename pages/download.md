@@ -1,0 +1,64 @@
+---
+title: Download
+sidebar: qaf_2_1_7b_sidebar
+permalink: download.html
+folder: qaf_2_1_7b
+---
+
+## Maven
+
+You can use QAF as a Maven Artifact. Users would need to add this to their pom.xml:
+
+**Repository entry:**
+
+```xml
+<repository>
+    <id>qaf</id>
+    <url>{{site.data.strings.qaf_repository}}</url>
+</repository>
+```
+
+**Maven Dependency Entry:**
+
+```xml
+<dependency>
+    <groupId>com.infostretch</groupId>
+    <artifactId>qaf</artifactId>
+    <version>{{site.data.strings.latest_version}}</version>
+</dependency>
+<dependency>
+    <groupId>com.infostretch</groupId>
+    <artifactId>qaf-support</artifactId>
+    <version>{{site.data.strings.latest_version}}</version>
+</dependency>
+```
+
+## IVY
+
+Create or update ivysettings.xml file to add new repository. Alternately you can add settings block into ivy.xml as well.
+
+**IVY settings**
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivysettings>
+    <settings defaultResolver="qaf"/>
+    <resolvers>
+        <chain name="qaf">
+            <ibiblio name="central" m2compatible="true"/>
+            <ibiblio name="QAF" m2compatible="true" root="{{site.data.strings.qaf_repository}}" />
+        </chain>
+    </resolvers>
+</ivysettings>
+```
+
+**IVY Dependency Entry**
+
+```xml
+<dependency org="com.infostretch" name="qaf" rev="{{site.data.strings.latest_version}}" />
+<dependency org="com.infostretch" name="qaf-support" rev="{{site.data.strings.latest_version}}" />
+```
+
+## Direct Download
+
+You can download QAF jar from [here]({{site.data.strings.qaf_repository}}/com/infostretch/qaf/{{site.data.strings.latest_version}}/qaf-{{site.data.strings.latest_version}}.jar).
