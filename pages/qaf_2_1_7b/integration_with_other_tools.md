@@ -47,7 +47,7 @@ public class ExampleResultUpdator implements TestCaseResultUpdator{
 	public boolean updateResult(Map<String, ? extends Object> params,
 			TestCaseRunResult result, String details) {
 
-		// Implement test management tool specific implemeneation/method calls
+		// Provide test management tool specific implemeneation/method calls
 		
 		return true;
 	}
