@@ -23,23 +23,23 @@ String getToolName();
 Example:
 
 ```java
-package com.infostretch.automation.integration.qmetry
+package com.infostretch.automation.integration.example
 ...
 
-public class QMetryResultUpdator implements TestCaseResultUpdator{
+public class ExampleResultUpdator implements TestCaseResultUpdator{
 
 	@Override
 	public String getToolName() {
-		return "QMetry";
+		return "Example";
 	}
 
 	/**
 	 * @param params
-	 *            parameters for ws call
+	 *            tescase/scenario meta-data including method parameters if any
 	 * @param result
 	 *            test case result
 	 * @param details
-	 *            run details to be send like assertion/verification log
+	 *            run details
 	 * @return
 	 */
 
@@ -47,9 +47,9 @@ public class QMetryResultUpdator implements TestCaseResultUpdator{
 	public boolean updateResult(Map<String, ? extends Object> params,
 			TestCaseRunResult result, String details) {
 
-		// Implement test management tool specific web service logic
+		// Implement test management tool specific implemeneation/method calls
 		
-		return false;
+		return true;
 	}
 
 }
@@ -61,5 +61,5 @@ To register result updator class set property **result.updator**
 Property:
 
 ```properties
-result.updator=com.infostretch.automation.integration.qmetry.QmetryUpdator
+result.updator=com.infostretch.automation.integration.example.ExampleResultUpdator
 ```
