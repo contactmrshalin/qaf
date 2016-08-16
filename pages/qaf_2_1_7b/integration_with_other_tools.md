@@ -10,7 +10,7 @@ Using QAF you can integrate any Test Management Tool to update Test-Result after
 
 1. Create a class which implements `TestCaseResultUpdator` interface.
 2. Specify qualified class name in `result.updator` property.
-3. Overide methods to implement test management tool specific web service logic
+3. Overide methods to provide test management tool specific implementation/method calls
 
 
 `TestCaseResultUpdator` interface defines following methods.
@@ -34,6 +34,7 @@ public class ExampleResultUpdator implements TestCaseResultUpdator{
 	}
 
 	/**
+	 * This method will be called by result updator after completion of each testcase/scenario.
 	 * @param params
 	 *            tescase/scenario meta-data including method parameters if any
 	 * @param result
