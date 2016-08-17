@@ -23,8 +23,8 @@ layout: home
         <div class="ul_contain1">
           <h4>Selenium-driven Automated Testing</h4>
           <ul>
-            <li><span>Web and mobile object spy options</span></li>
-            <li><span>Record and playback capabilities</span></li>
+            <li><span>Web and mobile test automation</span></li>
+            <li><span>Run locally or in cloude</span></li>
             <li><span>Automation support for multilingual applications </span></li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ layout: home
           <span class="test_stud"><img src="images/Streamlined.svg"/></span>
           <div class="features-text">
               <h4>Streamlined / Structured Approach</h4>
-              <p>Wizard-driven project and scenario creation, Object Spy and Object Repository validation right with-in an IDE.</p>
+              <p>Abstracting the technical implementation away from the operational components</p>
         </div>
       </div> 
       <div class="features-box">
