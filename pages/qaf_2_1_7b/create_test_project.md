@@ -15,6 +15,7 @@ If you are using QAS (QMetry Automation Studio) then create project using new pr
 
 Clone/Download [this]({{site.data.strings.blank_project_zip_url}}) repository for sample project.
 You can directly import project in Eclipse. Following plugins are recommanded for eclipse users.
+
 * [TestNG](http://testng.org/doc/eclipse.html)
 * [Apache IvyDE plugin](https://ant.apache.org/ivy/ivyde/download.html) (not requred for maven project)
 * Maven plugin (not required for IVY + Ant project)
