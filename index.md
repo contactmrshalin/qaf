@@ -7,7 +7,7 @@ layout: home
     <div class="container">
       <div class="desc">
             <h2>Rapid Test Automation</h2>
-            <p>A testing automation framework to create, maintain and manage test case libraries</p>
+            <p>An open source testing automation framework made available under the GNU General Public License, version 3 (GPL-3.0) to create, maintain and manage test case libraries</p>
             <div class="row text-center"><a title="" class="oh anim more" style="text-decoration:none;" href="docs.html">Documentation</a>
             <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">Download</a></div>
         </div>
@@ -163,3 +163,4 @@ layout: home
     </div>
   </div>
 </div>
+QMetry Automation Framework source code is made available under the <a href="https://opensource.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License, version 3 (GPL-3.0)</a>.
