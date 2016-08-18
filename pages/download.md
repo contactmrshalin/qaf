@@ -7,7 +7,7 @@ folder: qaf_2_1_7b
 
 ## Blank Project
 
-If you are starting form scratch, please refer <a href="/create_test_project.html">Creating Test Project</a>
+If you are starting form scratch, please refer <a href="create_test_project.html">Creating Test Project</a>
 
 ## Maven
 
