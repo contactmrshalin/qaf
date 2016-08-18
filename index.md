@@ -156,8 +156,8 @@ layout: home
           <img src="images/mobile-device-cloud-solutions.svg" alt="" />
           <h4>Mobile Device Cloud Solutions</h4>
           <ul>
+            <li><span>Perfecto</span></li>
             <li><span>Sauce Labs</span></li>
-            <li><span>Perfecto Mobile</span></li>
           </ul>
         </div>
       </div>
