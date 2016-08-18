@@ -5,10 +5,10 @@ layout: home
 <div class="static_banner qas noparallax" style="margin-top:0px;background-position:40%">
   <div class="nodesktop feather"></div>
     <div class="container">
-      <div class="desc">
+      <div class="desc-title">
             <h2>Rapid Test Automation</h2>
             <p>An open source testing automation framework made available under the <a href="https://opensource.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License, version 3 (GPL-3.0)</a> to create, maintain and manage test case libraries</p>
-            <div class="row text-center"><a title="" class="oh anim more" style="text-decoration:none;" href="docs.html">Documentation</a>
+            <div class="row text-center desc"><a title="" class="oh anim more" style="text-decoration:none;" href="docs.html">Documentation</a>
             <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">Download</a>
             <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">GitHub Repo</a></div>
         </div>
