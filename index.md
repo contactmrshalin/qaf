@@ -10,7 +10,7 @@ layout: home
             <p>An open source testing automation framework made available under the GNU General Public License, version 3 (GPL-3.0) to create, maintain and manage test case libraries</p>
             <div class="row text-center"><a title="" class="oh anim more" style="text-decoration:none;" href="docs.html">Documentation</a>
             <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">Download</a>
-            <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">GitHub Repo</a></div>
+            <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="https://github.com/infostretch/qaf">GitHub Repo</a></div>
         </div>
   </div>
 </div>
