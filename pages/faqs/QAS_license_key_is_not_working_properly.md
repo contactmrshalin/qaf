@@ -1,8 +1,5 @@
 ---
-title: QAS license key is not working properly?
-sidebar: faq_sidebar
-permalink: QAS_license_key_is_not_working_properly.html
-folder: qaf_2_1_7b
+
 ---
 
 license key will work if below check points are working 
