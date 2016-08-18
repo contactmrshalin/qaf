@@ -1,3 +1,9 @@
+---
+title: License
+sidebar: qaf_2_1_7b_sidebar
+permalink: license.html
+folder: qaf_2_1_7b
+---
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
