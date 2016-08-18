@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     
-    - title: Which are the features provided by QAF?
+    - title: What are the features provided by QAF?
       url: /what_are_the_features_provided_by_qas.html
       output: web, pdf
     - title: What are the use cases of listeners?
@@ -60,16 +60,16 @@ entries:
     - title: How to configure kwd for execution?
       url: /how_to_configure_kwd_for_execution.html
       output: web, pdf
-    - title: How to automate/execute mobile web app testcases on desktop browse?
+    - title: How to automate/execute mobile web app testcases on desktop browser?
       url: /how_to_run_mobile_web_app_on_desktop_browser.html
       output: web, pdf
     - title: How to run testcases created with appium on perfecto?
       url: /how_to_run_appium_testcases_on_perfecto.html
       output: web, pdf
-    - title: How to automate/execute mobile web app testcases on android real decice?
+    - title: How to automate/execute mobile web app testcases on android real device?
       url: /how_to_run_mweb_on_android.html
       output: web, pdf
-    - title: How to automate/exxecute native app testcases using appium?
+    - title: How to automate/execute native app testcases using appium?
       url: /how_to_run_on_native_app_on_appium.html
       output: web, pdf
     - title: How to run test on sauce labs?
