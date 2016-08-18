@@ -22,7 +22,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: GNU General Public License, version 3 (GPL-3.0)
-      url: /dist/com/infostretch/qaf/LICENSE.txt
+      url: /license.html
       output: web, pdf
   - title: Releases
     output: web, pdf
