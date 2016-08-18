@@ -4,7 +4,8 @@ sidebar: qaf_2_1_7b_sidebar
 permalink: download.html
 folder: qaf_2_1_7b
 ---
-
+## Blank Project
+If you are starting form scratch, please refer <a href="/create_test_project.html">Creating Test Project</a>
 ## Maven
 
 You can use QAF as a Maven Artifact. Users would need to add this to their pom.xml:
