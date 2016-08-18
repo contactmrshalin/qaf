@@ -5,17 +5,17 @@ permalink: qaf_reporting.html
 folder: qaf_2_1_7b
 ---
 
-## Overview
+## Summary
 
-* A powerful and customizable reporting engine ensures that you have access to all relevant test data like test results,check points,test case time, test step time and environment information.use powerful filters to slice and dice the data to drill down to exact result you seek.
+* QAF reporting is a powerful and customizable reporting engine ensures that you have access to all relevant test data like test results,check points,test case time, test step time and environment information.Use powerful filters to slice and dice the data to drill down to exact result you seek.
 * Comprehensive drill-down reporting, with each step result, step command log and screenshots.
 * Live reporting enables you to view reports of executed tests without waiting for entire suite to finish.
 * Get Detailed Reporting including Trending,root cause analysis and Automated screen capture. 
-* QAF generates the report in HTML format. Report includes dashboard.html file and dashboard folder(dashboard related images, js and css files). Modify the report using provided files as per your requirements.
+* It satifsy need of .
  
 **Reporting of test run includes below details**
 
-## Summary
+## Overview
 
 It summarize details of Over All Execution. It will display basic information about All Test. It shows test name, test execution duration, pass test case count, fail test case count, skip test case count, total test case count execution and rate of passing. Multiple Test Execution can be displayed here. View All Result link shows all test case of all test executed.
 
@@ -69,7 +69,7 @@ After selecting test, it displays test details of test case. It shows useful par
 
 ##  Test Case Tabs
 
-There are four tabs are available which helps for identifying l for trace log and analysis error of steps.
+There are four tabs available provides detailed steps, timimings, command log and error of steps.
 
 * **Check Points**({% include inline_image.html file="checkpoints_bullet.png" alt="Test Case Execution Report " %}) :- It Shows executed  steps and sub steps as checkpoints. Sub checkpoints will be displayed in collapse mode. 
 
