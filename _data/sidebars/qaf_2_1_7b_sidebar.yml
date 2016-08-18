@@ -18,6 +18,12 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: License
+    output: web, pdf
+    folderitems:
+    - title: GNU General Public License, version 3 (GPL-3.0)
+      url: /dist/com/infostretch/qaf/LICENSE.txt
+      output: web, pdf
   - title: Releases
     output: web, pdf
     folderitems:
