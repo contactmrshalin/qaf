@@ -11,7 +11,7 @@ folder: qaf_2_1_7b
 * Comprehensive drill-down reporting, with each step result, step command log and screenshots.
 * Live reporting enables you to view reports of executed tests without waiting for entire suite to finish.
 * Get Detailed Reporting including Trending,root cause analysis and Automated screen capture. 
-* It satifsy need of .
+
  
 **Reporting of test run includes below details**
 
