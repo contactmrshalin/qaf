@@ -32,7 +32,7 @@ step.provider.pkg=com.sample.page
 
 #[selenium]
 
-remote.server=http://ankitpatel:<access-key>@ondemand.saucelabs.com:80/wd/hub
+remote.server=http://<username>:<access-key>@ondemand.saucelabs.com:80/wd/hub
 
 remote.port=80
 
@@ -130,7 +130,7 @@ integration.tool.qmetry=0
 
 #integration.param.qmetry.suit.rundesc=
 
-license.key=p0Gl5vRmM3JCp91AHoQ8NcZkut3ClqrqxTG4sAT81HDk+H8cHWtyuWrQwyXS98wFdU2lEM4rCveZhDbqPYWvpF/puOfCxsgv2wpFcbUp9oFUI9bdWHRit/hNBssbHX9GyMdJPhkvJHsLf7/GBwekJlwzDkHf2QQOCEIgGVNXIBF+lWZ1GySJmNqB3/CsrJN+LqPUOVKZbVbbtnpFy2Ur537l95KH33edBph/iLyNm/6hwxcgcwRhJSdsyRWXWKRK
+license.key=<provide license key>
 
 firefox.additional.capabilities = {\"version\":\"29\"}
 

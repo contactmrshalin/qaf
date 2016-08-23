@@ -20,11 +20,11 @@ where **"remotedrivername"** can be "firefoxRemoteDriver","chromeRemoteDriver"  
 
 ```properties
 
-remote.server=http://username:token@ondemand.saucelabs.com:80/wd/hub
+remote.server=http://<username>:<access-key>@ondemand.saucelabs.com:80/wd/hub
 
 ```
 
-where **"username"** = sauce lab user name , **"token"** = sauce lab access key
+where **"username"** = sauce lab user name , **"access-key"** = sauce lab access key
 
 User can also provide additional properties of driver using **"browser.additional.capabilities"** key
 
@@ -36,7 +36,7 @@ where **"browser"** can be "firefox", "chrome" or any other browser
 
 driver.name=firefoxRemoteDriver
 
-remote.server=http://hirenpan123:a3c53906-5257-483f-b7f7-fbd43a3e2693@ondemand.saucelabs.com:80/wd/hub
+remote.server=http://<username>:<access-key>@ondemand.saucelabs.com:80/wd/hub
 
 firefox.additional.capabilities={'name':'SampleTestOnFirefox','platform':'Windows 8','version':'40.0'}
 
