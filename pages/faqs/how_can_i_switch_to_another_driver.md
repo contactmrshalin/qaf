@@ -7,15 +7,15 @@ folder: qaf_2_1_7b
 
 In some exceptional changes, it may be required to change the driver.
 
-To change the desired capabilities during test execution, you need to call the setup method of WebDriverTestBase class as below.
-
-**For example** if you want to switch to appiumDriver while executing on any other driver, call the following steps.
+**For example** if you want to switch to any new driver while executing on any other driver, call the following steps.
 
 ```java
-String[] desiredCaps =
-            STBArgs.base_url.set( "http://localhost:4723/wd/hub",
-                            STBArgs.port.set("4723",STBArgs.browser_str.set("appiumDriver")));
-new WebDriverTestBase().setUp(null, desiredCaps);
+By changing any of these property existing driver teardowns and new driver instance creates
+	driver.name
+	driver.additional.capabilities
+	remote.server
+	remote.port
+
 ```			
 
  
