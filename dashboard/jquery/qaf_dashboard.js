@@ -1,17 +1,24 @@
 /*******************************************************************************
- * Copyright 2016 Infostretch Corporation.
+ * QMetry Automation Framework provides a powerful and versatile platform to author 
+ * Automated Test Cases in Behavior Driven, Keyword Driven or Code Driven approach
+ *                
+ * Copyright 2016 Infostretch Corporation
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
+ * OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+ *
+ * You should have received a copy of the GNU General Public License along with this program in the name of LICENSE.txt in the root folder of the distribution. If not, see https://opensource.org/licenses/gpl-3.0.html
+ *
+ * See the NOTICE.TXT file in root folder of this source files distribution 
+ * for additional information regarding copyright ownership and licenses
+ * of other open source software / files used by QMetry Automation Framework.
+ *
+ * For any inquiry or need additional information, please contact support-qaf@infostretch.com
  *******************************************************************************/
 // Error Buckets with patterns
 var errorBuckets = {
@@ -141,6 +148,7 @@ function loadList(loadmethods) {
 		var size = treports.reports.length;
 		$.each(treports.reports, function(i, item) {
 			item['jobid'] = size--;
+			item['anchor_id'] = item.startTime;
 			$("#listTemplate").tmpl(item).appendTo("#reportlist");
 		});
 		$('#reportlist li').click(function() {
@@ -423,7 +431,7 @@ function createStepGraph(ele) {
 		series : [ {
 			color : '#0000FF'
 		}, {
-			color : '#f89a22'
+			color : '#6dff49'
 		} ],
 		legend : {
 			show : true,
