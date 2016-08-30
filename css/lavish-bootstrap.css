@@ -3902,7 +3902,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse {
   background-color: #74ab50;
-  border-color: #5c8840;
+  /*border-color: #5c8840;*/
 }
 .navbar-inverse .navbar-brand {
   color: #f9faf9;
@@ -3947,7 +3947,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #649345;
+  border-color: #032545;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -5895,4 +5895,16 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+@media (max-width:480px){
+.qas_3 .img { margin-bottom:20px; }
+span.projectTitle { font-size: 14px; }
+.static_banner { height:350px; }
+.static_banner .desc { width:90% !important; }
+.static_banner .desc h2 { font-size: 30px; }
+.static_banner .desc p { font-size: 18px; margin-bottom:20px !important; }
+.static_banner .desc a { width:85%; max-width: 180px; margin:0 auto 10px auto !important; }
+.navbar-inverse .navbar-brand { width:80%; }
+.navbar-inverse .navbar-brand span.projectTitle { font-size: 14px; }
 }

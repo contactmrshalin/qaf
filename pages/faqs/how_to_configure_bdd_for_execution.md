@@ -17,7 +17,7 @@ folder: qaf_2_1_7b
 <parameter name="driver.name" value="firefoxDriver" />
        <test name="Sample BDD Test" enabled="true">
                <classes>
-                         <class name="com.infostretch.automation.step.client.text.BDDTestFactory"/>
+                         <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
                </classes>
        </test>
 </suite>
@@ -60,7 +60,7 @@ The scenario.file.loc parameter value can be a file or directory from which you 
                <parameter name="scenario.file.loc" value="scenarios/testsuite.bdd"/>
               
                <classes>
-                         <class name="com.infostretch.automation.step.client.text.BDDTestFactory"/>
+                         <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
                </classes>
        </test>
 </suite>
@@ -83,7 +83,7 @@ Above configuration will execute only testsuite.bdd .
               
                <classes>
                       <class
-                          name="com.infostretch.automation.step.client.text.BDDTestFactory"/>
+                          name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
                </classes>
        </test>
 </suite>
@@ -109,7 +109,7 @@ Above configuration will execute testsuite.bdd and all .bdd file(s) in module1 d
                </groups>
                <classes>
                      <class
-                          name="com.infostretch.automation.step.client.text.BDDTestFactory"/>
+                          name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
                </classes>
        </test>
 </suite>

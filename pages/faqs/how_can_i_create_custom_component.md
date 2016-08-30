@@ -36,7 +36,7 @@ List<TestComponent> testComponent;
 
 Refer below example for custom component.
 
-To create a component you need to extend **“com.infostretch.automation.webdriver.QAFWebComponent”.**
+To create a component you need to extend **“com.qmetry.qaf.automation.webdriver.QAFWebComponent”.**
 
 {% include inline_image.html file="CustomComponent1.png" alt="Custom Component " %} 
 

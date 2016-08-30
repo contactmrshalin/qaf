@@ -23,7 +23,7 @@ String getToolName();
 Example:
 
 ```java
-package com.infostretch.automation.integration.example
+package com.qmetry.qaf.automation.integration.example
 ...
 
 public class ExampleResultUpdator implements TestCaseResultUpdator{
@@ -62,5 +62,5 @@ To register result updator class set property **result.updator**
 Property:
 
 ```properties
-result.updator=com.infostretch.automation.integration.example.ExampleResultUpdator
+result.updator=com.qmetry.qaf.automation.integration.example.ExampleResultUpdator
 ```

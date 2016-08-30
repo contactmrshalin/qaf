@@ -1,6 +1,6 @@
 ---
 title: Download
-sidebar: qaf_2_1_7b_sidebar
+sidebar: download_sidebar
 permalink: download.html
 folder: qaf_2_1_7b
 ---
@@ -26,12 +26,12 @@ You can use QAF as a Maven Artifact. Users would need to add this to their pom.x
 
 ```xml
 <dependency>
-    <groupId>com.infostretch</groupId>
+    <groupId>com.qmetry</groupId>
     <artifactId>qaf</artifactId>
     <version>{{site.data.strings.latest_version}}</version>
 </dependency>
 <dependency>
-    <groupId>com.infostretch</groupId>
+    <groupId>com.qmetry</groupId>
     <artifactId>qaf-support</artifactId>
     <version>{{site.data.strings.latest_version}}</version>
 </dependency>
@@ -59,8 +59,8 @@ Create or update ivysettings.xml file to add new repository. Alternately you can
 **IVY Dependency Entry**
 
 ```xml
-<dependency org="com.infostretch" name="qaf" rev="{{site.data.strings.latest_version}}" />
-<dependency org="com.infostretch" name="qaf-support" rev="{{site.data.strings.latest_version}}" />
+<dependency org="com.qmetry" name="qaf" rev="{{site.data.strings.latest_version}}" />
+<dependency org="com.qmetry" name="qaf-support" rev="{{site.data.strings.latest_version}}" />
 ```
 
 ## Direct Download

@@ -11,6 +11,8 @@
        url: /faq.html
      - title: Github Repo
        external_url: https://github.com/infostretch/
+     - title: Sponsors
+       url: /sponsors.html
      #- title: Troubleshoot
      #  url: /troubleshoot.html
      
@@ -31,6 +33,7 @@
          - title: Infostretch Website
            external_url: http://www.infostretch.com/
            #http://infostretch.zendesk.com/  
+
 
      # - title: Products
      #   folderitems:

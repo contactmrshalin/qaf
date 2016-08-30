@@ -299,7 +299,7 @@ Package restructured and renamed some classes, please refer Upgrade notes.
 
 **Package restructured and code clean up:**
 
-* Removed "com.infostretch.automation.webdriver.custom" package holding sample custom component.
+* Removed "com.qmetry.qaf.automation.webdriver.custom" package holding sample custom component.
 
 * Removed class/pacakage from selenium community (org.**).
 
@@ -484,7 +484,7 @@ public class SampleStepProvider {
 
 * Json based reporting support , you need to copy dashboard.htm and jquery directory.
 
-* Added service entry to register testNG listener. Now you don't require to register testng listener of ISFW. Please remove "com.infostretch.automation.testng.IsTestNGListener" entry from the listener entries in existing build files.
+* Added service entry to register testNG listener. Now you don't require to register testng listener of ISFW. Please remove "com.qmetry.qaf.automation.testng.IsTestNGListener" entry from the listener entries in existing build files.
 
 * Added support to directly provide remote webdriver url in case it is not in standard remote webdriver format. ie http://<host>:<port>/wd/hub. In case the remote wd url is different then the defult pattern then insted of providing server and port just provide actual url as value of server property. For example: http://14.97.73.4:7777/wd/
 
@@ -505,7 +505,7 @@ public class SampleStepProvider {
 **example:**
 
 ```java
- import static com.infostretch.automation.util.StringMatcher.containsIgnoringCase
+ import static com.qmetry.qaf.automation.util.StringMatcher.containsIgnoringCase
  ele.verifyText(containsIgnoringCase("partial text"));
  ele.verifyText(exact("text"));
  ele.verifyText(startsWith("prefix"));

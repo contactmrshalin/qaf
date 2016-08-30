@@ -10,7 +10,7 @@ A cucumber QAF Formatter is provided to use with cucumber JVM.
 Formatter: 
 
 ```java
-com.infostretch.automation.cucumber.QAFCucumberFormatter
+com.qmetry.qaf.automation.cucumber.QAFCucumberFormatter
 ```
 
 You can use all the features of QAF while developing cucumber java steps.

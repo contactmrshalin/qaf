@@ -16,13 +16,13 @@ folder: qaf_2_1_7b
 
 	<test name="KWD Test" enabled="false">
 		<classes>
-			<class name="com.infostretch.automation.step.client.csv.KwdTestFactory"></class>
+			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
 		</classes>
 	</test>
 
 	<test name="BDD Test" enabled="true">
 		<classes>
-			<class name="com.infostretch.automation.step.client.text.BDDTestFactory"></class>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>
 	</test>
 

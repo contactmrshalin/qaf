@@ -73,7 +73,7 @@ In your xml configuration file add following listener entry in :
 
 <listeners>
 
-<listener class-name="com.infostretch.automation.integration.qmetry.testnglistener.QmetrySchedulerFilter" />
+<listener class-name="com.qmetry.qaf.automation.integration.qmetry.testnglistener.QmetrySchedulerFilter" />
 
 </listeners>
 …

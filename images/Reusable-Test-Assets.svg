@@ -18,9 +18,9 @@
 		"/>
 	<polyline fill="none" stroke="#BBBBBB" stroke-width="2" stroke-miterlimit="10" points="45.448,30 45.448,15.517 31.931,2 2,2 
 		2,58 32.896,58 	"/>
-	<polyline fill="none" stroke="#F67107" stroke-width="2" stroke-miterlimit="10" points="33.862,54.138 33.862,47.379 
+	<polyline fill="none" stroke="#32D0FF" stroke-width="2" stroke-miterlimit="10" points="33.862,54.138 33.862,47.379 
 		40.621,47.379 	"/>
-	<path fill="none" stroke="#F67107" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M37.725,37.725
+	<path fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M37.725,37.725
 		c2.122-2.405,5.229-3.862,8.689-3.862C52.813,33.862,58,39.05,58,45.448s-5.187,11.586-11.586,11.586
 		c-5.741,0-10.668-4.174-11.587-9.655"/>
 </g>

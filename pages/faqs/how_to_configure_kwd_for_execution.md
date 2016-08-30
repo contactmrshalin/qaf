@@ -18,7 +18,7 @@ folder: qaf_2_1_7b
 <parameter name="driver.name" value="firefoxDriver" />
     <test name="Sample KWD Test" enabled="true">
        <classes>
-          <class name="com.infostretch.automation.step.client.text.KWDTestFactory"/>
+          <class name="com.qmetry.qaf.automation.step.client.text.KWDTestFactory"/>
        </classes>
     </test>
 </suite>
@@ -52,7 +52,7 @@ The scenario.file.loc parameter value can be a file or directory from which you 
     <test name="Sample KWD Test" enabled="true">
        <parameter name="scenario.file.loc" value="scenarios/testsuite.kwd"/>
            <classes>
-              <class name="com.infostretch.automation.step.client.text.KWDTestFactory"/>
+              <class name="com.qmetry.qaf.automation.step.client.text.KWDTestFactory"/>
            </classes>
     </test>
 </suite>
@@ -90,7 +90,7 @@ Value for scenario.file.loc can be file or directory (or combination of both) fr
    <test name="Sample KWD Test" enabled="true">
        <parameter name="scenario.file.loc" value=" scenarios/testsuite1.kwd; scenarios/module1; scenarios/module2"/>
         <classes>
-            <class name="com.infostretch.automation.step.client.text.KWDTestFactory"/>
+            <class name="com.qmetry.qaf.automation.step.client.text.KWDTestFactory"/>
         </classes>
    </test>
 </suite>
@@ -114,7 +114,7 @@ Above configuration will execute testsuite.kwd and all .kwd file(s) in module1 d
                          </run>
                </groups>
                <classes>
-                         <class name="com.infostretch.automation.step.client.text.KWDTestFactory"/>
+                         <class name="com.qmetry.qaf.automation.step.client.text.KWDTestFactory"/>
                </classes>
        </test>
 </suite>

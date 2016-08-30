@@ -31,7 +31,7 @@ You can create listener by implementing appropriate listener interface of by ext
 
 ## TestStep Listener
 
-In order to create teststep listener, you need to implement listener interface ```com.infostretch.automation.step.QAFTestStepListener``` or extend adapter class ```QAFTestStepAdapter```.
+In order to create teststep listener, you need to implement listener interface ```com.qmetry.qaf.automation.step.QAFTestStepListener``` or extend adapter class ```QAFTestStepAdapter```.
 
 ```QAFTestStepListener``` defines following methods:
 
@@ -60,7 +60,7 @@ To register listener set property **teststep.listeners**.
 For example to register above created listener you need to set property as below:
 
 ```properties
-teststep.listeners=com.infostretch.listeners.ThresholdListener
+teststep.listeners=com.qmetry.qaf.listeners.ThresholdListener
 ```
 
 ## WebDriver Listener

@@ -31,10 +31,10 @@
 <path fill="none" stroke="#BBBBBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 	M45,78.334C46.877,78.766,48.829,79,50.837,79c14.359,0,26-11.641,26-26c0-14.358-11.641-26-26-26c-2.008,0-3.96,0.235-5.837,0.666"
 	/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="37" y1="35" x2="42" y2="35"/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="32" y1="42" x2="42" y2="42"/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="27" y1="49" x2="42" y2="49"/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23" y1="56" x2="42" y2="56"/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="29" y1="63" x2="42" y2="63"/>
-<line fill="none" stroke="#F98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="35" y1="70" x2="42" y2="70"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="37" y1="35" x2="42" y2="35"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="32" y1="42" x2="42" y2="42"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="27" y1="49" x2="42" y2="49"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23" y1="56" x2="42" y2="56"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="29" y1="63" x2="42" y2="63"/>
+<line fill="none" stroke="#32D0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="35" y1="70" x2="42" y2="70"/>
 </svg>

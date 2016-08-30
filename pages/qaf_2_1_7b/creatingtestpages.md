@@ -87,7 +87,7 @@ Override before launch and after launch method to provide before/after launch st
 To create test page using webdriver API you need to extend **WebdriverBaseTestPage<P>** class. It supports all the above features and provide handle of webdriver instead of selenium, taking care to initialize webelement annotated with **@FindBy** annotation provided by selenium or InfoStretch. It also supports custom components. Below is sample test page to use webdriver.
 
 ```java	
-import com.infostretch.automation.ui.annotations.FindBy;
+import com.qmetry.qaf.automation.ui.annotations.FindBy;
 ...
 public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage>
         implements

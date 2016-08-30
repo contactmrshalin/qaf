@@ -8,9 +8,9 @@ layout: home
       <div class="desc">
             <h2>Rapid Test Automation</h2>
             <p>An open source testing automation framework made available under the GNU General Public License, version 3 (GPL-3.0) to create, maintain and manage test case libraries</p>
-            <div class="row text-center"><a title="" class="oh anim more" style="text-decoration:none;" href="docs.html">Documentation</a>
-            <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="download.html">Download</a>
-            <a title="" style="text-decoration:none;margin-left:20px;" class="oh anim more" href="https://github.com/infostretch/qaf">GitHub Repo</a></div>
+            <div class="row text-center"><a title="" class="anim lnk skyblue" style="text-decoration:none; margin-bottom:10px;" href="docs.html">Documentation</a>
+            <a title="" style="text-decoration:none;margin-left:20px; margin-bottom:10px;" class="anim lnk skyblue" href="download.html">Download</a>
+            <a title="" style="text-decoration:none;margin-left:20px; margin-bottom:10px;" class="anim lnk skyblue" href="https://github.com/infostretch/qaf">GitHub Repo</a></div>
         </div>
   </div>
 </div>
@@ -69,7 +69,7 @@ layout: home
   <div class="container">
     <h2 class="dtitle">QMetry Automation Framework <span>Key Benefits</span></h2>
     <div class="col-md-6 col-sm-12 col-xs-12">
-      <img src="images/Detailed_Reporting.png" alt="QMetry-Automation-Studio-Key-Benefits" />     
+      <img src="images/Detailed_Reporting.png" class="img" alt="QMetry-Automation-Studio-Key-Benefits" />     
     </div>
     <div class="col-md-6 col-sm-12 col-xs-12">
       <div class="features-box">
@@ -164,4 +164,8 @@ layout: home
     </div>
   </div>
 </div>
-<span style="float:right;">QMetry Automation Framework source code is made available under the <a href="https://opensource.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License, version 3 (GPL-3.0)</a>.</span>
+<div class="">
+  <div class="container">
+    <p class="text-center" style="font-size:14px;margin-top:20px;">QMetry Automation Framework source code is made available under the <a href="https://opensource.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License, version 3 (GPL-3.0)</a>.</p>
+  </div>
+</div>

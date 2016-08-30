@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.infostretch</groupId>
+  <groupId>com.qmetry.qaf</groupId>
   <artifactId>qaf-support</artifactId>
   <latest>2.1.7b</latest>
   <release>2.1.7b</release>
