@@ -23,7 +23,7 @@
  
  -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
-	<info organisation="com.qmetry" module="qaf" revision="2.1.7" status="integration" publication="20160830161234">
+	<info organisation="com.qmetry" module="qaf" revision="2.1.7" status="integration" publication="20160830160556">
 	</info>
 
 	<dependencies>
