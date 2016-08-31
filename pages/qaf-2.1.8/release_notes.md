@@ -5,6 +5,12 @@ permalink: qaf-2.1.8/release_notes.html
 folder: qaf_2_1_7b
 ---
 
+## VER-2.1.8 Release Notes:
+
+**New Features:**
+
+1. Refactored package from com.infostretch to com.qmetry.qaf
+
 ## VER-2.1.7b Release Notes:
 
 **New Features:**
