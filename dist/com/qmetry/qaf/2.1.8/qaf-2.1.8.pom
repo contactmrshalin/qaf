@@ -10,8 +10,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.qmetry</groupId>
   <artifactId>qaf</artifactId>
-  <packaging>pom</packaging>
-  <version>2.1.7</version>
+  <packaging>jar</packaging>
+  <version>2.1.8</version>
   <dependencies>
     <dependency>
       <groupId>org.hamcrest</groupId>
